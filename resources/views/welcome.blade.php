@@ -10,7 +10,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="assets/img/logo.svg" rel="icon">
+    <link href="assets/img/newlogoSIMPLE.png" rel="icon">
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
@@ -38,15 +38,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                    <h1 data-aos="fade-up"> SIAPKAN <br>
+                    <h1 data-aos="fade-up"> SIMPEL <br>
                     </h1>
-                    <h3 data-aos="fade-up"> (Sistem Informasi Aspirasi dan Perencanaan Kegiatan) Kab. Sleman</h3>
-                    <h2 data-aos="fade-up" data-aos-delay="400">Selamat Datang di SIAPKAN <br>Aspirasi Anda, Perencanaan
-                        Kita, Masa Depan Sleman</h2>
+                    <h3 data-aos="fade-up"> (Sistem Informasi Manajemen Perizinan dan Perencanaan Kegiatan Publik) Kab.
+                        Sleman</h3>
+                    <h2 data-aos="fade-up" data-aos-delay="400">Selamat Datang di SIMPEL <br>Rencanakan dan Wujudkan
+                        Kegiatan dengan SIMPEL</h2>
                     <div data-aos="fade-up" data-aos-delay="800">
-                        <a href="{{ url('login') }}" class="btn-get-started scrollto">laporkan aspirasi </a>
+                        <a href="{{ url('login') }}" class="btn-get-started scrollto">Mulai Pengajuan </a>
 
-                        <a href="#services" class="btn-get-started-2 scrollto">lihat perencanaan</a>
+                        <a href="#services" class="btn-get-started-2 scrollto">Panduan SIMPEL</a>
                     </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="fade-left" data-aos-delay="200">
@@ -70,29 +71,38 @@
                 <div class="row content">
                     <div class="col-lg-6" data-aos="fade-up" data-aos-delay="150">
                         <p>
-                        <h3>SIAPKAN</h3> Adalah sebuah platform pengaduan dan perencanaan kegiatan yang dirancang untuk
-                        mempermudah masyarakat Kabupaten Sleman dalam menyampaikan aspirasi atau laporan kepada pihak
-                        berwenang.
+                        <h3>SIMPEL</h3> SIMPEL adalah platform digital yang dirancang untuk mempermudah pengelolaan
+                        perizinan
+                        kegiatan yang menggunakan fasilitas publik. Sistem ini memungkinkan masyarakat, komunitas, atau
+                        organisasi untuk mengajukan izin secara terstruktur dan transparan, tanpa perlu proses manual
+                        yang
+                        memakan waktu. SIMPEL juga memuat informasi tentang ketersediaan dan persyaratan penggunaan
+                        fasilitas
+                        publik seperti taman, gedung serbaguna, atau ruang terbuka lainnya.
+
                         </p>
                         <ul>
-                            <h3>Tujuan SIAPKAN</h3>
-                            <li><i class="ri-check-double-line"></i>Memberikan informasi dan laporan yang jelas kepada
-                                pihak berwenang sehingga dapat ditindaklanjuti dengan cepat dan tepat.
+                            <h3>Tujuan SIMPEL</h3>
+                            <li><i class="ri-check-double-line"></i>Mempermudah proses perizinan dengan mengurangi
+                                kerumitan
+                                dalam pengajuan izin melalui sistem yang sederhana dan efisien.
                             </li>
-                            <li><i class="ri-check-double-line"></i>Mempermudah masyarakat dalam berkomunikasi dengan
-                                pihak berwenang
+                            <li><i class="ri-check-double-line"></i>Memberikan kemudahan bagi masyarakat dalam
+                                mengakses layanan perizinan.
                             </li>
                         </ul>
                     </div>
                     <div class="col-lg-6 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="300">
                         <p>
-                        <h4>SIAPKAN</h4> untuk mendukung perencanaan kegiatan yang lebih baik.
-                        mencerminkan komitmen kami dalam melayani masyarakat Kabupaten Sleman. Melalui sistem aspirasi
-                        dan perencanaan ini, setiap suara masyarakat diharapkan dapat didengar dan diwujudkan oleh pihak
-                        terkait.
+                        <h4>SIMPEL</h4> Sistem Informasi Manajemen Perizinan dan Perencanaan Kegiatan Publik (SIMPEL)
+                        adalah
+                        platform modern yang memudahkan pengajuan izin penggunaan ruang publik secara online. Pengguna
+                        dapat mengurus izin dengan cepat, memantau status real-time, dan mengakses informasi fasilitas.
+                        Pengelola juga dapat mengatur izin, jadwal, dan laporan secara efisien, sehingga proses lebih
+                        transparan dan layanan publik semakin optimal.
 
                         </p>
-                        <a href="#services" class="btn-learn-more"> Aspirasi dan Perencanaan Kegiatan</a>
+                        <a href="{{ route('login') }}" class="btn-learn-more">Ajukan Rencana Kegiatan</a>
                     </div>
                 </div>
 
@@ -105,7 +115,7 @@
 
                 <div class="row <div class=" image col-xl-5 d-flex align-items-stretch justify-content-center
                     justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-                    <img src="assets/img/PMO.svg" alt="" class="img-fluid ukuran">
+                    <img src="assets/img/2.svg" alt="" class="img-fluid ukuran  ">
                 </div>
 
                 <div class="col-xl-12 d-flex align-items-center pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
@@ -116,7 +126,7 @@
                                     <i class="bi bi-emoji-smile"></i>
                                     <span data-purecounter-start="0" data-purecounter-end="65"
                                         data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Pengguna</strong><br>DAFTAR pengguna SIAPKAN</p>
+                                    <p><strong>Pengguna</strong><br>DAFTAR pengguna SIMPEL</p>
                                 </div>
                             </div>
 
@@ -152,7 +162,7 @@
 
                 <div class="section-title" data-aos="fade-up">
                     <h2>TATA CARA</h2>
-                    <p>Nah ini dia alur pelaporan yang ada di website SIAPKAN</p>
+                    <p>Nah ini dia alur pelaporan yang ada di website SIMPEL</p>
                 </div>
 
                 <div class="row">
@@ -207,7 +217,7 @@
 
                 <div class="section-title" data-aos="fade-up">
                     <h2>testimoni </h2>
-                    <p>Apa Kata Mereka Tentang SIAPKAN?
+                    <p>Apa Kata Mereka Tentang SIMPEL?
                     </p>
                 </div>
 
@@ -216,9 +226,9 @@
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon"><i class='bx bxs-user'></i></div>
                             <h4 class="title"><a href="">Prosesnya Cepat dan Gampang Banget!</a></h4>
-                            <p class="description">Kemarin saya coba pakai SIAPKAN buat izin pakai ruang terbuka di
+                            <p class="description">Kemarin saya coba pakai SIMPEL buat izin pakai ruang terbuka di
                                 lingkungan desa untuk acara olahraga bareng. Awalnya mikir bakal ribet karena biasanya
-                                harus bolak-balik ngurus dokumen. Tapi, lewat SIAPKAN, semua jadi simpel banget! - Fajar
+                                harus bolak-balik ngurus dokumen. Tapi, lewat SIMPEL, semua jadi simpel banget! - Fajar
                             </p>
                         </div>
                     </div>
@@ -226,10 +236,10 @@
                         <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
                             <div class="icon"><i class='bx bxs-user'></i></div>
                             <h4 class="title"><a href="">Sistemnya User-Friendly Banget!</a></h4>
-                            <p class="description">Nyoba SIAPKAN buat izin pakai aula desa buat seminar komunitas. Yang
+                            <p class="description">Nyoba SIMPEL buat izin pakai aula desa buat seminar komunitas. Yang
                                 paling aku suka, tampilannya gampang dipahami. Bahkan buat orang yang gak terlalu
                                 tech-savvy kayak aku, prosesnya gak bikin bingung. Ini sih solusi pas banget buat
-                                masyarakat yang pengen suara mereka didengar. Mantap, SIAPKAN! - Andira
+                                masyarakat yang pengen suara mereka didengar. Mantap, SIMPEL! - Andira
                             </p>
                         </div>
                     </div>
@@ -238,9 +248,11 @@
                             <div class="icon"><i class='bx bxs-user'></i></div>
                             <h4 class="title"><a href="">Gak Perlu Ribet Lagi Buat Urusan Izin!
                                 </a></h4>
-                            <p class="description">Aku baru aja pakai SIAPKAN buat ajukan izin pakai ruang terbuka
-                                untuk acara lomba 17 Agustus di kampung. Biasanya tuh harus keliling sana-sini, ngurusin
-                                surat ini itu, tapi di SIAPKAN semua jadi praktis. - Nando
+                            <p class="description">Mengurus izin kegiatan jadi lebih cepat dan praktis sejak pakai
+                                SIMPEL.
+                                Semua prosesnya transparan, dan saya bisa cek status izin kapan saja. Sangat membantu
+                                untuk
+                                pelaku seni seperti saya. - Nando
 
                             </p>
                         </div>

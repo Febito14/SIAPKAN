@@ -76,12 +76,8 @@ class MasyarakatController extends Controller
 
     public function lihat() {
 
-
-        // $user = Auth::user()->pengaduan()->get();
-        $user = Auth::user()->nik;
-
-
-        $items = Pengaduan::all();
+        $userId = Auth::user()->id; // Ambil ID user yang sedang login
+        $items = Pengaduan::where('user_id', $userId)->get(); // Filter laporan berdasarkan user_id
 
         return view('pages.masyarakat.detail', [
             'items' => $items
