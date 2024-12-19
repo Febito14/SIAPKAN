@@ -26,6 +26,7 @@ class AdminController extends Controller
         return view('pages.admin.pengaduan.detail',[
         'item' => $item
         ]);
+        
     }
 
     public function masyarakat() {

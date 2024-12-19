@@ -34,6 +34,17 @@ Route::prefix('user')
         Route::get('pengaduan', 'MasyarakatController@lihat');
 });
 
+use App\Models\User;
+use App\Models\Pengaduan;
+
+Route::get('/', function () {
+    return view('welcome', [
+        'jumlahPengguna' => User::count(),
+        'jumlahPengajuan' => Pengaduan::count(),
+        'jumlahDilaksanakan' => Pengaduan::where('status', 'Selesai')->count(),
+    ]);
+});
+
 
 
 

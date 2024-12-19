@@ -23,6 +23,7 @@ Data Pengajuan
           </ul>
         </div>
         @endif
+        
         <table class="w-full whitespace-no-wrap">
           <thead>
             <tr
@@ -37,14 +38,28 @@ Data Pengajuan
           <tbody class="bg-white divide-y dark:divide-gray-700 dark:bg-gray-800">
             @forelse ($items as $item)
             <tr class="text-gray-700 dark:text-gray-400 ">
-              <td class="px-4 py-3">
-                <div class="flex items-center text-sm">
-                  <!-- Avatar with inset shadow -->
-                  <div class="relative hidden mr-3  md:block">
-                    <img class=" h-32 w-35 " src="{{ Storage::url($item->image) }}" alt="" loading="lazy" />
-                  </div>
-                </div>
-              </td>
+                <td class="px-4 py-3">
+                                        <div class="flex items-center text-sm">
+                                            <div class="relative hidden mr-3 md:block">
+                                                @if (str_ends_with($item->image, '.pdf'))
+                                                    <a href="{{ Storage::url($item->image) }}" target="_blank"
+                                                        class="flex items-center text-orange-500 hover:underline font-semibold">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-1"
+                                                            viewBox="0 0 20 20" fill="currentColor">
+                                                            <path d="M9 2a1 1 0 00-1 1v12a1 1 0 102 0V4a1 1 0 00-1-1z" />
+                                                            <path fill-rule="evenodd"
+                                                                d="M4 5a2 2 0 012-2h4.586a2 2 0 011.414.586l4.828 4.828a2 2 0 010 2.828l-1.414 1.414a2 2 0 01-2.828 0L12 9.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V5z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        Lihat File PDF
+                                                    </a>
+                                                @else
+                                                    <img class="h-32 w-35" src="{{ Storage::url($item->image) }}"
+                                                        alt="" loading="lazy" />
+                                                @endif
+                                            </div>
+                                        </div>
+                                    </td>
               <td class="px-4 py-3 text-sm">
                 {{ $item->name }}
               </td>

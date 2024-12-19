@@ -21,6 +21,42 @@ body {
     color: #444444;
 }
 
+#counts {
+    padding: 50px 0;
+    background-color: #f8fafc;
+}
+
+#counts .count-box {
+    padding: 15px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+#counts .count-box i {
+    font-size: 1.5rem;
+    color: #fd7e14;
+    margin-bottom: 10px;
+}
+
+#counts .count-box span {
+    font-size: 1.8rem;
+    color: #333;
+    display: block;
+    font-weight: 700;
+}
+
+#counts .count-box p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+#counts img {
+    max-width: 90%; /* Membuat gambar lebih besar */
+    height: auto;
+}
+
 a {
     color: #3498db;
     text-decoration: none;

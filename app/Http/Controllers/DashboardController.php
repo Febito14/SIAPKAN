@@ -19,6 +19,9 @@ class DashboardController extends Controller
             'pending' => Pengaduan::where('status', 'Belum di Proses')->count(),
             'process' => Pengaduan::where('status', 'Sedang di Proses')->count(),
             'success' => Pengaduan::where('status', 'Selesai')->count(),
+             'jumlahPengguna' => User::count(), // Menambahkan jumlah total pengguna
+        'jumlahPengajuan' => Pengaduan::count(), // Menambahkan jumlah total pengajuan
+        'jumlahDilaksanakan' => Pengaduan::where('status', 'Selesai')->count(), // Menambahkan jumlah kegiatan yang selesai
         ]);
     }
 }

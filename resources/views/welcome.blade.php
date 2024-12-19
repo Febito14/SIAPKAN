@@ -109,52 +109,47 @@
             </div>
         </section><!-- End About Us Section -->
 
-        <!-- ======= Counts Section ======= -->
-        <section id="counts" class="counts">
-            <div class="container">
+     <!-- ======= Counts Section ======= -->
+<section id="counts" class="counts">
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Image Section -->
+            <div class="col-xl-6 d-flex align-items-center justify-content-center" data-aos="fade-right" data-aos-delay="150">
+                <img src="assets/img/2.svg" alt="Image" class="img-fluid" style="max-width: 90%;">
+            </div>
 
-                <div class="row <div class=" image col-xl-5 d-flex align-items-stretch justify-content-center
-                    justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
-                    <img src="assets/img/2.svg" alt="" class="img-fluid ukuran  ">
-                </div>
-
-                <div class="col-xl-12 d-flex align-items-center pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay="300">
-                    <div class="content d-flex flex-column justify-content-center">
-                        <div class="row">
-                            <div class="col-md-4 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-emoji-smile"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="65"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Pengguna</strong><br>DAFTAR pengguna SIMPEL</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-journal-richtext"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="85"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Pengajuan</strong> <br> Jumlah pengajuan yang sudah dikirim</p>
-                                </div>
-                            </div>
-
-                            <div class="col-md-4 d-md-flex align-items-md-stretch">
-                                <div class="count-box">
-                                    <i class="bi bi-clock"></i>
-                                    <span data-purecounter-start="0" data-purecounter-end="18"
-                                        data-purecounter-duration="1" class="purecounter"></span>
-                                    <p><strong>Dilaksanakan</strong> <br> Jumlah kegiatan yang sudah berjalan</p>
-                                </div>
-                            </div>
-
+            <!-- Counts Content -->
+            <div class="col-xl-6" data-aos="fade-left" data-aos-delay="300">
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <div class="count-box">
+                            <i class="bi bi-emoji-smile"></i>
+                            <span>{{ $jumlahPengguna }}</span>
+                            <p><strong>Pengguna</strong><br>DAFTAR pengguna SIMPEL</p>
                         </div>
-                    </div><!-- End .content-->
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="count-box">
+                            <i class="bi bi-journal-richtext"></i>
+                            <span>{{ $jumlahPengajuan }}</span>
+                            <p><strong>Pengajuan</strong><br>Jumlah pengajuan yang sudah dikirim</p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="count-box">
+                            <i class="bi bi-clock"></i>
+                            <span>{{ $jumlahDilaksanakan }}</span>
+                            <p><strong>Dilaksanakan</strong><br>Jumlah kegiatan yang sudah berjalan</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-            </div>
-        </section><!-- End Counts Section -->
+        </div>
+    </div>
+</section>
+<!-- End Counts Section -->
 
         <!-- ======= Services Section ======= -->
         <section id="services" class="services">
